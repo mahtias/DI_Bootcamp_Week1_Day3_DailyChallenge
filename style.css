@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cotes {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.milieu {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    grid-gap: 50px;
+}
+
+.item {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
